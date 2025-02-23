@@ -1,0 +1,34 @@
+.env
+package-lock.json
+node_modules
+.DS_Store
+
+ERC20/*
+ERC20/.DS_Store
+ERC20/.env
+ERC20/node_modules
+
+ERC721/*
+ERC721/.DS_Store
+ERC721/.env
+ERC721/node_modules
+
+
+# Hardhat files
+*/cache
+*/artifacts
+
+# TypeChain files
+*/typechain
+*/typechain-types
+
+# solidity-coverage files
+*/coverage
+*/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+# Application logs
+*/logs
+*/node_modules

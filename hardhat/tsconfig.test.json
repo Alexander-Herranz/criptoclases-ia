@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "module": "esnext",
+      "moduleResolution": "node"  // Cambiar a 'node' para soportar resolveJsonModule
+    },
+    "include": ["./test/**/*.ts"]
+  }
+  

@@ -1,0 +1,32 @@
+{
+  "engines": {
+    "node": ">=20.13.1"
+  },
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.ts --network ronin",
+    "test": "npx hardhat test --tsconfig tsconfig.test.json"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "1.5.0",
+    "@nomicfoundation/hardhat-ethers": "3.0.6",
+    "@openzeppelin/contracts": "^5.2.0",
+    "@types/node": "20.12.11",
+    "chai": "^5.1.2",
+    "eslint": "9.2.0",
+    "hardhat": "2.22.5",
+    "hardhat-deploy": "^0.14.0",
+    "solc": "^0.8.28",
+    "ts-node": "10.9.2",
+    "typescript": "5.4.5"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-verify": "^2.0.12",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/chai": "^5.0.1",
+    "@types/mocha": "^10.0.10",
+    "ethers": "^6.13.5",
+    "typechain": "^8.3.2"
+  }
+}
