@@ -1,8 +1,0 @@
-SERVICE_NAME: ERC721 Contract API
-PORT: 3000
-CONTRACTS_FILE: ./contracts.json
-CONTRACT:
-  NAME: ERC721MintableAndBurnable
-LOG_LEVELS:
-  LOG_LEVEL_SYSTEM: debug
-  LOG_LEVEL_FILE: info
