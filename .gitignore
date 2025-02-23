@@ -3,7 +3,6 @@ package-lock.json
 node_modules
 .DS_Store
 README.md
-.vscode/*
 
 ERC20/*
 ERC20/.DS_Store
@@ -34,3 +33,17 @@ ignition/deployments/chain-31337
 # Application logs
 */logs
 */node_modules
+
+#Visual Studio Code files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
